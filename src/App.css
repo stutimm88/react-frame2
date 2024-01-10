@@ -1,0 +1,410 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500&display=swap');
+
+/*
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.frame2 {
+  width: 100%;
+  height: 3533px;
+  display: flex;
+  overflow: hidden;
+  position: relative;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 1px;
+  background-color: rgba(255, 255, 255, 1);
+}
+.rectangle21 {
+  top: 680px;
+  left: 187px;
+  width: 324px;
+  height: 55px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 2px;
+}
+.rectangle16 {
+  top: 401px;
+  left: 1388px;
+  width: 382px;
+  height: 74px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+}
+.rectangle22 {
+  top: 553px;
+  left: 1388px;
+  width: 382px;
+  height: 620px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+}
+.rectangle14 {
+  top: 553px;
+  left: 150px;
+  width: 383px;
+  height: 1100px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+}
+.text {
+  top: 679px;
+  left: 187px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text051 {
+  top: 610px;
+  left: 187px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text053 {
+  top: 613px;
+  left: 1413px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text055 {
+  top: 415px;
+  left: 1463px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: SemiBold;
+  text-align: left;
+  font-family: Poppins;
+  font-weight: 600;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.rectangle15 {
+  top: 569px;
+  left: 561px;
+  width: 795px;
+  height: 2431px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+}
+.rectangle13 {
+  top: 86px;
+  left: 150px;
+  width: 350px;
+  height: 59px;
+  position: absolute;
+}
+.rectangle23 {
+  top: 86px;
+  left: 150px;
+  width: 350px;
+  height: 59px;
+  position: absolute;
+}
+.rectangle24 {
+  top: 86px;
+  left: 150px;
+  width: 350px;
+  height: 59px;
+  position: absolute;
+}
+.text057 {
+  top: 193px;
+  left: 163px;
+  color: rgba(0, 0, 0, 1);
+  width: 1620px;
+  height: auto;
+  position: absolute;
+  font-size: 35px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text059 {
+  top: 278px;
+  left: 163px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text060 {
+  color: rgba(0, 0, 0, 1);
+}
+.text066 {
+  color: rgba(10, 102, 194, 1);
+}
+.text068 {
+  top: 614px;
+  left: 746px;
+  color: rgba(0, 0, 0, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.ellipse2 {
+  top: 590px;
+  left: 603px;
+  width: 90px;
+  height: 90px;
+  position: absolute;
+}
+.text070 {
+  top: 1081px;
+  left: 612px;
+  color: rgba(0, 0, 0, 1);
+  width: 704px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.text071 {
+  text-decoration: NONE;
+}
+.text081 {
+  text-decoration: UNDERLINE;
+}
+.text082 {
+  text-decoration: NONE;
+}
+.text088 {
+  text-decoration: UNDERLINE;
+}
+.text089 {
+  text-decoration: NONE;
+}
+.text101 {
+  text-decoration: UNDERLINE;
+}
+.text102 {
+  text-decoration: NONE;
+}
+.text106 {
+  text-decoration: UNDERLINE;
+}
+.text107 {
+  text-decoration: NONE;
+}
+.text111 {
+  text-decoration: UNDERLINE;
+}
+.text112 {
+  text-decoration: NONE;
+}
+.text116 {
+  text-decoration: UNDERLINE;
+}
+.text117 {
+  text-decoration: NONE;
+}
+.text121 {
+  text-decoration: UNDERLINE;
+}
+.text122 {
+  text-decoration: NONE;
+}
+.text130 {
+  text-decoration: UNDERLINE;
+}
+.rectangle18 {
+  top: 3071px;
+  left: 767px;
+  width: 373px;
+  height: 92px;
+  position: absolute;
+  border-color: rgba(0, 0, 0, 1);
+  border-style: solid;
+  border-width: 0.5px;
+  border-radius: 10px;
+}
+.text135 {
+  top: 3098px;
+  left: 828px;
+  color: rgba(255, 255, 255, 1);
+  height: auto;
+  position: absolute;
+  font-size: 30px;
+  font-style: Bold;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 700;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.rectangle19 {
+  top: 738px;
+  left: 618px;
+  width: 689px;
+  height: 272px;
+  position: absolute;
+  border-radius: 10px;
+}
+.rectangle20 {
+  top: 2612px;
+  left: 609px;
+  width: 689px;
+  height: 286px;
+  position: absolute;
+  border-radius: 10px;
+}
+.text137 {
+  top: 694px;
+  left: 1421px;
+  color: rgba(10, 102, 194, 1);
+  width: 301px;
+  height: auto;
+  position: absolute;
+  font-size: 25px;
+  font-style: Regular;
+  text-align: left;
+  font-family: Space Grotesk;
+  font-weight: 400;
+  line-height: normal;
+  font-stretch: normal;
+  text-decoration: none;
+}
+.discord1 {
+  top: 1524px;
+  left: 187px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.telegram11 {
+  top: 1524px;
+  left: 238px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.twitter1 {
+  top: 1524px;
+  left: 289px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.instagram1 {
+  top: 1524px;
+  left: 391px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.youtube1 {
+  top: 1524px;
+  left: 442px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.facebook1 {
+  top: 1524px;
+  left: 340px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.linkedin1 {
+  top: 1584px;
+  left: 187px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.reddit1 {
+  top: 1584px;
+  left: 238px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.share1 {
+  top: 1584px;
+  left: 289px;
+  width: 30px;
+  height: 30px;
+  position: absolute;
+}
+.share2 {
+  top: 608px;
+  left: 1257px;
+  width: 50px;
+  height: 50px;
+  position: absolute;
+} */
